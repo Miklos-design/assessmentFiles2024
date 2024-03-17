@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class AssE1_outline {
+public class AssE1 {
 	
 	private static final int CAPACITY = 100; // initial capacity
 	private static final float LOAD_FACTOR = (float) 0.75;
@@ -74,7 +74,7 @@ public class AssE1_outline {
 		System.out.println(mapToString(libraryLoans1));	
 		
 		System.out.println("The combined set of keys is: \n");
-		System.out.println(keysToString(libraryLoans1)); // After overlaying, libraryLoans1 contains all keys
+		System.out.println(keysToString(libraryLoans1)); 
 
 		
 	}
